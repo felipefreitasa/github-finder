@@ -1,0 +1,50 @@
+.user-box-data {
+   width: 90%;
+
+   border-radius: 6px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+   margin-bottom: 20px;
+
+   .user-data {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      background-color: #141c2f;
+
+      border-radius: 6px;
+      border-bottom: 3px solid #0775ee;
+
+      padding: 5px 0;
+
+      overflow-y: hidden;
+
+      @media (min-width: 0px) {
+         width: 100%;
+
+         margin: 10px 0;
+      }
+
+      @media (min-width: 400px) {
+         width: 25%;
+
+         margin: 0 5px;
+      }
+
+      > h2 {
+         color: #7a8297;
+         font-size: 12px;
+
+      }
+
+      > p {
+         color: #fff;
+         font-size: 20px;
+      }
+   }
+}

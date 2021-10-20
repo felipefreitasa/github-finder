@@ -1,0 +1,31 @@
+.repository-box {
+   background-color: #141c2f;
+
+   margin-bottom: 20px;
+
+   width: 90%;
+
+   padding: 20px;
+
+   border-radius: 6px;
+
+   text-decoration: none;
+
+   &:hover {
+      cursor: pointer;
+
+      box-shadow: #0079FD 5px 5px, #0072ED 10px 10px }
+
+   > h2 {
+      color: #0079fd;
+      font-size: 16px;
+      font-weight: 500;
+
+      margin-bottom: 10px;
+   }
+
+   > p {
+      color: #7a8297;
+      font-size: 12px;
+   }
+}

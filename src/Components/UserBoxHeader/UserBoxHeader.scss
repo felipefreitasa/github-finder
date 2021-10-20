@@ -1,0 +1,50 @@
+.user-box-header {
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   background-color: #1f2a48;
+
+   .user-image {
+      border-radius: 50%;
+
+      width: 100px;
+   }
+
+   .user-box-content {
+      margin-left: 20px;
+
+      @media (min-width: 0px){
+         text-align: center;
+      }
+   
+      @media (min-width: 375px){
+         text-align: left;
+      }
+   
+      > h1 {
+         color: #fff;
+         font-size: 22px;
+
+         margin-bottom: 5px;
+      }
+
+      > strong {
+         color: #0775ee;
+         font-size: 15px;
+      }
+
+      > p {
+         margin-top: 5px;
+
+         color: #7a8297;
+         font-size: 14px;
+
+         display: flex;
+         align-items: center;
+      }
+   }
+}

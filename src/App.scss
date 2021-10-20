@@ -1,0 +1,66 @@
+* {
+   margin: 0;
+   padding: 0;
+
+   box-sizing: border-box;
+
+   transition: all 0.3s ease-in-out;
+
+   font-family: "Roboto Mono", monospace;
+
+   body {
+      background-color: #141c2f;
+   }
+}
+
+body::-webkit-scrollbar {
+   width: 8px; 
+}
+body::-webkit-scrollbar-track {
+   background: #1f2a48; 
+}
+body::-webkit-scrollbar-thumb {
+   background-color: #0775ee; 
+   border-radius: 20px; 
+   border: 3px solid #0775ee; 
+}
+
+.app {
+   background-color: #141c2f;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   @media (min-width: 0px) {
+      height: 100%;
+
+      margin: 20px 0;
+   }
+}
+
+.user-box {
+   background-color: #1f2a48;
+
+   border-radius: 10px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   padding: 20px;
+
+   @media (min-width: 0px) {
+      width: 90%;
+   }
+
+   @media (min-width: 760px) {
+      width: 80%;
+   }
+
+   @media (min-width: 900px) {
+      width: 50%;
+   }
+}
